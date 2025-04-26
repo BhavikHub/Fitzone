@@ -1,38 +1,116 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: rgb(8, 8, 8);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar */
+.background{
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Home */
+.home-hero {
+  height: 100vh;
+  background-image: url("/public/ChatGPT\ Image\ Apr\ 24\,\ 2025\,\ 03_11_46\ PM.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero-content {
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 90%;
+  z-index: 2;
+  width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.bottom-icon {
+  bottom: 20px; /* Distance from the bottom */
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero-content h1 {
+    font-size: 2rem;
   }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.93rem;
+  }
+
+  .hero-content p {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+.bounce-icon{
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Card design */
+.card-color{
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+.cards{
+  border-color: black;
+}
+
+/* About */
+
+#about{
+  background-color: rgb(106, 5, 5);
+}
+
+/* Contact */
+
+#contact{
+  background-color: rgb(68, 1, 1);
+}
+
+.contactbox{
+  background-color: rgb(72, 8, 8);
+  color: rgb(255, 255, 255);
 }
