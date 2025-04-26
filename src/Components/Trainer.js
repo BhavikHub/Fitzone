@@ -9,7 +9,7 @@ const Trainer = () => {
         <div className="card mx-3 my-3 card-color cards" style={{ width: '18rem'}}>
           <div className="d-flex justify-content-center mt-3">
             <img 
-              src="/Images/Strength.png" 
+              src={process.env.PUBLIC_URL + "/Images/Strength.png"} 
               className="card-img-top" 
               alt="trainer" 
               style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} 
@@ -23,7 +23,7 @@ const Trainer = () => {
         <div className="card mx-3 my-3 card-color cards" style={{ width: '18rem'}}>
           <div className="d-flex justify-content-center mt-3">
             <img 
-              src="/Images/khushal.jpg" 
+              src={process.env.PUBLIC_URL + "/Images/khushal.jpg"} 
               className="card-img-top" 
               alt="trainer" 
               style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} 
@@ -37,7 +37,7 @@ const Trainer = () => {
         <div className="card mx-3 my-3 card-color cards" style={{ width: '18rem'}}>
           <div className="d-flex justify-content-center mt-3">
             <img 
-              src="/Images/Bharat.jpg" 
+              src={process.env.PUBLIC_URL + "/Images/Bharat.jpg"} 
               className="card-img-top" 
               alt="trainer" 
               style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} 
@@ -51,7 +51,7 @@ const Trainer = () => {
         <div className="card mx-3 my-3 card-color cards" style={{ width: '18rem'}}>
           <div className="d-flex justify-content-center mt-3">
             <img 
-              src="/Images/Yatin.jpg" 
+              src={process.env.PUBLIC_URL + "/Images/Yatin.jpg"} 
               className="card-img-top" 
               alt="trainer" 
               style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} 

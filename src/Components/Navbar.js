@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark background">
         <div className="container-fluid">
           <a className="navbar-brand mx-4" href="/">
-          <img src="/lago.png" alt="..."  />
+          <img src={process.env.PUBLIC_URL + "/lago.png"} alt="..."  />
           </a>
           <button
             className="navbar-toggler"

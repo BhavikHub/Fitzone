@@ -33,7 +33,7 @@ const About = () => {
         </div>
 
         <div className="col-12 col-md-6 order-1 order-md-2 text-center my-4">
-          <img src="/Images/Abouts.jpg" alt="about" style={{
+          <img src={process.env.PUBLIC_URL + "/Images/Abouts.jpg"} alt="about" style={{
             height: "auto",
             maxWidth: "100%",
             borderRadius: "10px",
