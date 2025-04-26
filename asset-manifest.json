@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Fitzone/static/css/main.b028a0e4.css",
+    "main.js": "/Fitzone/static/js/main.049670b3.js",
+    "static/js/453.e83d33f9.chunk.js": "/Fitzone/static/js/453.e83d33f9.chunk.js",
+    "static/media/ChatGPT Image Apr 24, 2025, 03_11_46 PM.png": "/Fitzone/static/media/ChatGPT Image Apr 24, 2025, 03_11_46 PM.b6e9a97542559d9e9351.png",
+    "index.html": "/Fitzone/index.html",
+    "main.b028a0e4.css.map": "/Fitzone/static/css/main.b028a0e4.css.map",
+    "main.049670b3.js.map": "/Fitzone/static/js/main.049670b3.js.map",
+    "453.e83d33f9.chunk.js.map": "/Fitzone/static/js/453.e83d33f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b028a0e4.css",
+    "static/js/main.049670b3.js"
+  ]
+}
