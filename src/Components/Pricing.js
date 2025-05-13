@@ -32,7 +32,7 @@ const Pricing = () => {
               <strong>Premium</strong>
             </h3>
             <p className="card-text">
-              <strong style={{ fontSize: "30px" }}>Rs 1200</strong>/month
+              <strong style={{ fontSize: "30px" }}>Rs 1800</strong>/month
             </p>
             <div>{" "}<i className="fa-solid fa-check text-success"></i> Full Gym Access</div>
             <div> {" "}<i className="fa-solid fa-check text-success"></i> Unlimited Group Class</div>
@@ -50,7 +50,7 @@ const Pricing = () => {
               <strong>Elite</strong>
             </h3>
             <p className="card-text">
-              <strong style={{ fontSize: "30px" }}>Rs 1200</strong>/month
+              <strong style={{ fontSize: "30px" }}>Rs 2500</strong>/month
             </p>
             <div>{" "}<i className="fa-solid fa-check text-success"></i> Full Gym Access</div>
             <div> {" "}<i className="fa-solid fa-check text-success"></i> Unlimited group classes</div>
